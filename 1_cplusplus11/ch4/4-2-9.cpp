@@ -1,0 +1,11 @@
+int x;
+int *y = &x;
+double food();
+int & bar();
+auto * a = &x;
+auto &b = x;
+auto c = y;
+auto *d = y;
+auto *e = &foo();
+auto g = bar();
+auto &h = bar();
