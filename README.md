@@ -3,4 +3,4 @@
 
 2_CPlusPlus_Primer_V5 ——《C++ Primer（中文版）（第5版）》
 
-3_3_CPlusPlus_Concurrency_in_Action_2ed ——《C++并发编程(第2版)》
+3_CPlusPlus_Concurrency_in_Action_2ed ——《C++并发编程(第2版)》
