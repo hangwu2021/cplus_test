@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ai2/hang.wu/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/ch1/test_boost_thread1.cpp
+boost/thread/thread.hpp
+-
+iostream
+-
+
