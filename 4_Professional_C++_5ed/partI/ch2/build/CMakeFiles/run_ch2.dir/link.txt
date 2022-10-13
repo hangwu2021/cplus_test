@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++14 -Wall  -rdynamic CMakeFiles/run_ch2.dir/StringTest.cpp.o  -o ../bin/run_ch2 
