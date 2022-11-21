@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/ai2/hang.wu/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/ch1/test_boost_thread1.cpp
+/home/hangwu/Documents/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/ch1/test_boost_thread_singleton.cpp
+iostream
+-
 boost/thread/thread.hpp
 -
-iostream
+boost/bind.hpp
 -
 

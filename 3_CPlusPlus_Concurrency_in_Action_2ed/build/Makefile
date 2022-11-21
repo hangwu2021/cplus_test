@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ai2/hang.wu/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed
+CMAKE_SOURCE_DIR = /home/hangwu/Documents/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ai2/hang.wu/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build
+CMAKE_BINARY_DIR = /home/hangwu/Documents/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ai2/hang.wu/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build/CMakeFiles /home/ai2/hang.wu/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hangwu/Documents/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build/CMakeFiles /home/hangwu/Documents/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ai2/hang.wu/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hangwu/Documents/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ concurrent/fast:
 	$(MAKE) -f CMakeFiles/concurrent.dir/build.make CMakeFiles/concurrent.dir/build
 .PHONY : concurrent/fast
 
-ch1/test_boost_thread1.o: ch1/test_boost_thread1.cpp.o
+ch1/test_boost_thread_singleton.o: ch1/test_boost_thread_singleton.cpp.o
 
-.PHONY : ch1/test_boost_thread1.o
+.PHONY : ch1/test_boost_thread_singleton.o
 
 # target to build an object file
-ch1/test_boost_thread1.cpp.o:
-	$(MAKE) -f CMakeFiles/concurrent.dir/build.make CMakeFiles/concurrent.dir/ch1/test_boost_thread1.cpp.o
-.PHONY : ch1/test_boost_thread1.cpp.o
+ch1/test_boost_thread_singleton.cpp.o:
+	$(MAKE) -f CMakeFiles/concurrent.dir/build.make CMakeFiles/concurrent.dir/ch1/test_boost_thread_singleton.cpp.o
+.PHONY : ch1/test_boost_thread_singleton.cpp.o
 
-ch1/test_boost_thread1.i: ch1/test_boost_thread1.cpp.i
+ch1/test_boost_thread_singleton.i: ch1/test_boost_thread_singleton.cpp.i
 
-.PHONY : ch1/test_boost_thread1.i
+.PHONY : ch1/test_boost_thread_singleton.i
 
 # target to preprocess a source file
-ch1/test_boost_thread1.cpp.i:
-	$(MAKE) -f CMakeFiles/concurrent.dir/build.make CMakeFiles/concurrent.dir/ch1/test_boost_thread1.cpp.i
-.PHONY : ch1/test_boost_thread1.cpp.i
+ch1/test_boost_thread_singleton.cpp.i:
+	$(MAKE) -f CMakeFiles/concurrent.dir/build.make CMakeFiles/concurrent.dir/ch1/test_boost_thread_singleton.cpp.i
+.PHONY : ch1/test_boost_thread_singleton.cpp.i
 
-ch1/test_boost_thread1.s: ch1/test_boost_thread1.cpp.s
+ch1/test_boost_thread_singleton.s: ch1/test_boost_thread_singleton.cpp.s
 
-.PHONY : ch1/test_boost_thread1.s
+.PHONY : ch1/test_boost_thread_singleton.s
 
 # target to generate assembly for a file
-ch1/test_boost_thread1.cpp.s:
-	$(MAKE) -f CMakeFiles/concurrent.dir/build.make CMakeFiles/concurrent.dir/ch1/test_boost_thread1.cpp.s
-.PHONY : ch1/test_boost_thread1.cpp.s
+ch1/test_boost_thread_singleton.cpp.s:
+	$(MAKE) -f CMakeFiles/concurrent.dir/build.make CMakeFiles/concurrent.dir/ch1/test_boost_thread_singleton.cpp.s
+.PHONY : ch1/test_boost_thread_singleton.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... concurrent"
-	@echo "... ch1/test_boost_thread1.o"
-	@echo "... ch1/test_boost_thread1.i"
-	@echo "... ch1/test_boost_thread1.s"
+	@echo "... ch1/test_boost_thread_singleton.o"
+	@echo "... ch1/test_boost_thread_singleton.i"
+	@echo "... ch1/test_boost_thread_singleton.s"
 .PHONY : help
 
 

@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/concurrent.dir/ch1/test_boost_thread1.cpp.o  -o concurrent  -lpthread -lboost 
+/usr/bin/c++    -rdynamic CMakeFiles/concurrent.dir/ch1/test_boost_thread_singleton.cpp.o  -o concurrent  -lpthread -lboost_thread 

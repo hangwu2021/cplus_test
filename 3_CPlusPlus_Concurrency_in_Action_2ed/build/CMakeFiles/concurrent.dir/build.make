@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ai2/hang.wu/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed
+CMAKE_SOURCE_DIR = /home/hangwu/Documents/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ai2/hang.wu/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build
+CMAKE_BINARY_DIR = /home/hangwu/Documents/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/concurrent.dir/depend.make
@@ -57,30 +57,30 @@ include CMakeFiles/concurrent.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/concurrent.dir/flags.make
 
-CMakeFiles/concurrent.dir/ch1/test_boost_thread1.cpp.o: CMakeFiles/concurrent.dir/flags.make
-CMakeFiles/concurrent.dir/ch1/test_boost_thread1.cpp.o: ../ch1/test_boost_thread1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ai2/hang.wu/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/concurrent.dir/ch1/test_boost_thread1.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/concurrent.dir/ch1/test_boost_thread1.cpp.o -c /home/ai2/hang.wu/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/ch1/test_boost_thread1.cpp
+CMakeFiles/concurrent.dir/ch1/test_boost_thread_singleton.cpp.o: CMakeFiles/concurrent.dir/flags.make
+CMakeFiles/concurrent.dir/ch1/test_boost_thread_singleton.cpp.o: ../ch1/test_boost_thread_singleton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hangwu/Documents/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/concurrent.dir/ch1/test_boost_thread_singleton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/concurrent.dir/ch1/test_boost_thread_singleton.cpp.o -c /home/hangwu/Documents/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/ch1/test_boost_thread_singleton.cpp
 
-CMakeFiles/concurrent.dir/ch1/test_boost_thread1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/concurrent.dir/ch1/test_boost_thread1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ai2/hang.wu/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/ch1/test_boost_thread1.cpp > CMakeFiles/concurrent.dir/ch1/test_boost_thread1.cpp.i
+CMakeFiles/concurrent.dir/ch1/test_boost_thread_singleton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/concurrent.dir/ch1/test_boost_thread_singleton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hangwu/Documents/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/ch1/test_boost_thread_singleton.cpp > CMakeFiles/concurrent.dir/ch1/test_boost_thread_singleton.cpp.i
 
-CMakeFiles/concurrent.dir/ch1/test_boost_thread1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/concurrent.dir/ch1/test_boost_thread1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ai2/hang.wu/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/ch1/test_boost_thread1.cpp -o CMakeFiles/concurrent.dir/ch1/test_boost_thread1.cpp.s
+CMakeFiles/concurrent.dir/ch1/test_boost_thread_singleton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/concurrent.dir/ch1/test_boost_thread_singleton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hangwu/Documents/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/ch1/test_boost_thread_singleton.cpp -o CMakeFiles/concurrent.dir/ch1/test_boost_thread_singleton.cpp.s
 
 # Object files for target concurrent
 concurrent_OBJECTS = \
-"CMakeFiles/concurrent.dir/ch1/test_boost_thread1.cpp.o"
+"CMakeFiles/concurrent.dir/ch1/test_boost_thread_singleton.cpp.o"
 
 # External object files for target concurrent
 concurrent_EXTERNAL_OBJECTS =
 
-concurrent: CMakeFiles/concurrent.dir/ch1/test_boost_thread1.cpp.o
+concurrent: CMakeFiles/concurrent.dir/ch1/test_boost_thread_singleton.cpp.o
 concurrent: CMakeFiles/concurrent.dir/build.make
 concurrent: CMakeFiles/concurrent.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ai2/hang.wu/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable concurrent"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hangwu/Documents/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable concurrent"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/concurrent.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -93,6 +93,6 @@ CMakeFiles/concurrent.dir/clean:
 .PHONY : CMakeFiles/concurrent.dir/clean
 
 CMakeFiles/concurrent.dir/depend:
-	cd /home/ai2/hang.wu/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ai2/hang.wu/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed /home/ai2/hang.wu/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed /home/ai2/hang.wu/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build /home/ai2/hang.wu/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build /home/ai2/hang.wu/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build/CMakeFiles/concurrent.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hangwu/Documents/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hangwu/Documents/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed /home/hangwu/Documents/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed /home/hangwu/Documents/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build /home/hangwu/Documents/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build /home/hangwu/Documents/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build/CMakeFiles/concurrent.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/concurrent.dir/depend
 

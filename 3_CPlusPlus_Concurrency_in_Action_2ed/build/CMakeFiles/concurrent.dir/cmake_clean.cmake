@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/concurrent.dir/ch1/test_boost_thread1.cpp.o"
+  "CMakeFiles/concurrent.dir/ch1/test_boost_thread_singleton.cpp.o"
   "concurrent"
   "concurrent.pdb"
 )

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ai2/hang.wu/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/ch1/test_boost_thread1.cpp" "/home/ai2/hang.wu/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build/CMakeFiles/concurrent.dir/ch1/test_boost_thread1.cpp.o"
+  "/home/hangwu/Documents/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/ch1/test_boost_thread_singleton.cpp" "/home/hangwu/Documents/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build/CMakeFiles/concurrent.dir/ch1/test_boost_thread_singleton.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

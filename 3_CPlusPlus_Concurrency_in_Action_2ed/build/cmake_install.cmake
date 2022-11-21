@@ -1,4 +1,4 @@
-# Install script for directory: /home/ai2/hang.wu/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed
+# Install script for directory: /home/hangwu/Documents/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ai2/hang.wu/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hangwu/Documents/cplus_test/3_CPlusPlus_Concurrency_in_Action_2ed/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
